@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Program Files (x86)\SC4 Utilities\SC4Tool\SC4Tool.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F3F9B579-2077-4FE4-935A-19D8146184BE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>SC4Tool</AssemblyName>
+    <ApplicationVersion>2.2.7.0</ApplicationVersion>
+    <RootNamespace>SC4Tool</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Common">
+      <HintPath>lib\C1.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid">
+      <HintPath>lib\C1.Win.C1FlexGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="Eyefinder">
+      <HintPath>lib\Eyefinder.dll</HintPath>
+    </Reference>
+    <Reference Include="FSHLib">
+      <HintPath>lib\FSHLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="SandBar">
+      <HintPath>lib\SandBar.dll</HintPath>
+    </Reference>
+    <Reference Include="SandDock">
+      <HintPath>lib\SandDock.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceLibrary">
+      <HintPath>lib\SourceLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="sr_Resources">
+      <HintPath>lib\sr_Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="sr_SC4Lib">
+      <HintPath>lib\sr_SC4Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="sr_SourceGrid">
+      <HintPath>lib\sr_SourceGrid.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SwitchGrid.cs" />
+    <Compile Include="StatusBarChild.cs" />
+    <Compile Include="sr_DirBrowser.cs" />
+    <Compile Include="PropViewForm.cs" />
+    <Compile Include="MainModule.cs" />
+    <Compile Include="MainFunctionClass.cs" />
+    <Compile Include="LotTile.cs" />
+    <Compile Include="Lot.cs" />
+    <Compile Include="FormTransitSwitch.cs" />
+    <Compile Include="FormTransitDirection.cs" />
+    <Compile Include="FormTM.cs" />
+    <Compile Include="FormTextureMaker.cs" />
+    <Compile Include="FormSetDef.cs" />
+    <Compile Include="FormReferenz.cs" />
+    <Compile Include="FormProgress.cs" />
+    <Compile Include="FormMaskedInput.cs" />
+    <Compile Include="FormMain.cs" />
+    <Compile Include="FormLotEditor.cs" />
+    <Compile Include="FormLayout.cs" />
+    <Compile Include="FormLanguage.cs" />
+    <Compile Include="FormIntro.cs" />
+    <Compile Include="FormFileMerger.cs" />
+    <Compile Include="FormEditTransit.cs" />
+    <Compile Include="FormEditor.cs" />
+    <Compile Include="FormDepScanner.cs" />
+    <Compile Include="FormDB.cs" />
+    <Compile Include="FormCompare.cs" />
+    <Compile Include="FormBAT.cs" />
+    <Compile Include="FormAddBuilding.cs" />
+    <Compile Include="FormAbout.cs" />
+    <Compile Include="Form8.cs" />
+    <Compile Include="ClassThisProg.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="exe.licenses" />
+    <EmbeddedResource Include="Form8.resx" />
+    <EmbeddedResource Include="FormAbout.resx" />
+    <EmbeddedResource Include="FormAddBuilding.resx" />
+    <EmbeddedResource Include="FormBAT.resx" />
+    <EmbeddedResource Include="FormCompare.resx" />
+    <EmbeddedResource Include="FormDB.resx" />
+    <EmbeddedResource Include="FormDepScanner.resx" />
+    <EmbeddedResource Include="FormEditor.resx" />
+    <EmbeddedResource Include="FormEditTransit.resx" />
+    <EmbeddedResource Include="FormFileMerger.resx" />
+    <EmbeddedResource Include="FormIntro.resx" />
+    <EmbeddedResource Include="FormLanguage.resx" />
+    <EmbeddedResource Include="FormLayout.resx" />
+    <EmbeddedResource Include="FormLotEditor.resx" />
+    <EmbeddedResource Include="FormMain.resx" />
+    <EmbeddedResource Include="FormMaskedInput.resx" />
+    <EmbeddedResource Include="FormProgress.resx" />
+    <EmbeddedResource Include="FormReferenz.resx" />
+    <EmbeddedResource Include="FormSetDef.resx" />
+    <EmbeddedResource Include="FormTextureMaker.resx" />
+    <EmbeddedResource Include="FormTM.resx" />
+    <EmbeddedResource Include="FormTransitDirection.resx" />
+    <EmbeddedResource Include="FormTransitSwitch.resx" />
+    <EmbeddedResource Include="PropViewForm.resx" />
+    <EmbeddedResource Include="SwitchGrid.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
