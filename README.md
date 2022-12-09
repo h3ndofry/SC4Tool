@@ -1,5 +1,7 @@
 # SC4Tool
 
+A mirror of a collection of files uploaded by ulisse99 to the SC4Devotion official Discord.
+
 
 ## ⚠️ At current time of writing there is NO guarantee that this solution will work. 
 
